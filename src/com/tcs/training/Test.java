@@ -8,7 +8,7 @@ public class Test {
 
  public static void main(String[] args) throws InterruptedException {
 	 WebDriver driver;
-	 System.out.println("a");
+	 System.out.println("ab");
 	 System.setProperty("webdriver.gecko.driver","/Users/tcsinteractive/Documents/workspace-spring-tool-suite-4-4.5.0.RELEASE/Automation/geckodriver");
 	 driver=new FirefoxDriver();
 	 driver.get("https://www.google.com");
